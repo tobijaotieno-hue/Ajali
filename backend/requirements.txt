@@ -12,3 +12,4 @@ bcrypt==4.2.0
 pytest==8.3.4
 alembic==1.15.2
 gunicorn==23.0.0
+# Force fresh build
