@@ -33,7 +33,7 @@ class Config:
     REPORTS_PER_PAGE = int(os.getenv('REPORTS_PER_PAGE', 20))
     
     # CORS
-    CORS_ORIGINS = os.getenv('CORS_ORIGINS', 'http://localhost:3000,http://localhost:5173,http://localhost:8080').split(',')
+    CORS_ORIGINS = os.getenv('CORS_ORIGINS', 'http://localhost:3000,http://localhost:5173,http://localhost:8080,https://ajali-delta.vercel.app').split(',')
 
 
 class DevelopmentConfig(Config):
